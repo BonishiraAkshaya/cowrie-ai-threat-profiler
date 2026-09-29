@@ -52,6 +52,7 @@ Attacker
 │  Threat Level       │
 │  Response           │
 └─────────────────────┘
+```text
 
 ## 🛠️ Technologies Used
 
@@ -97,7 +98,7 @@ Commands   : ls, whoami, pwd
 Risk Score : Calculated by the profiler
 Threat     : Classified by the profiler
 Response   : Generated recommendation
-
+```text
 ## ⚠️ Disclaimer
 
 This project is intended for educational, cybersecurity research, and controlled laboratory environments.
