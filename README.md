@@ -52,7 +52,7 @@ Attacker
 │  Threat Level       │
 │  Response           │
 └─────────────────────┘
-```text
+```
 
 ## 🛠️ Technologies Used
 
@@ -84,6 +84,8 @@ The honeypot was tested using SSH connections and commands such as:
 ls
 whoami
 pwd
+```
+
 The commands were successfully captured in the Cowrie logs and processed by the AI Threat Profiler.
 
 ## 📊 Example Threat Report
@@ -91,14 +93,15 @@ The commands were successfully captured in the Cowrie logs and processed by the 
 ```text
 AI THREAT REPORT
 
-IP Address : 10.0.2.2
+IP Address : Detected source IP
 Sessions   : 1
 Commands   : ls, whoami, pwd
 
 Risk Score : Calculated by the profiler
 Threat     : Classified by the profiler
 Response   : Generated recommendation
-```text
+```
+
 ## ⚠️ Disclaimer
 
 This project is intended for educational, cybersecurity research, and controlled laboratory environments.
